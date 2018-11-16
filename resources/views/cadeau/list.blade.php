@@ -6,6 +6,7 @@
         <div class="col-md-12">
             <h1>Liste des cadeaux</h1>
             <a href="{{ route('cadeau.add') }}" class='btn btn-sm btn-primary'>Ajouter un cadeau</a>
+            <a href="{{ route('cadeau.add') }}" class='btn btn-sm btn-primary'>Importer à traves excel</a>
             <div class='clearfix'>&nbsp;</div>
             <table class='table table-bordered table-striped'>
             <thead>
